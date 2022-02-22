@@ -1,0 +1,28 @@
+.flexy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logobox {
+  height: 3.5rem;
+  min-height: 3.5rem;
+}
+
+.menu .nav-link {
+  color: #C94A90;
+  font-weight: 600;
+}
+
+.menu .nav-link:hover {
+  color: #f8f8f8f8;
+  background-color: #C94A90;
+  border-radius: 0.2rem;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,27 @@
+$maincol: #C94A90;
+$maintext : #f8f8f8f8;
+
+.flexy{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.logobox{
+  height: 3.5rem;
+  min-height: 3.5rem;
+}
+
+.menu
+{
+      .nav-link {
+        color: $maincol;
+        font-weight: 600;
+      }
+
+    .nav-link:hover {
+
+      color: $maintext;
+      background-color: $maincol;
+      border-radius: 0.2rem;
+    }
+}
