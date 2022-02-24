@@ -1,0 +1,27 @@
+*{
+  outline: 1px solid red;
+}
+body{
+  background-color: black;
+  color: white;
+}
+#root{
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left{
+  height: 300px;
+}
+.right{
+  height: 300px;
+}
