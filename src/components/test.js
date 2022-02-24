@@ -1,1 +1,0 @@
-export const Codes = () => <img src="./img/logo.png" alt="BigCo Inc. logo"/>;
