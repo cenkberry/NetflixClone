@@ -1,7 +1,7 @@
 const FourCard = (props) => {
 return(
   <>
-    <div className="col-12 col-sm-4 p-1 m-0">
+    <div className="col-6 col-sm-4 p-1 m-0">
       <div className="card-title bg-secondary flex p-2 m-0"><h3>{props.title}</h3></div>
       <div className="card-exp bg-warning p-2 p-2 m-0"><p>{props.exp}</p></div>
     </div>
@@ -9,7 +9,7 @@ return(
 )
 };
 
-export const Cardrow = (props) => {
+export const Cardrow = () => {
 return(
     <div class="container-xl">
       <div className="row">
