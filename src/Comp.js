@@ -13,7 +13,7 @@ export const Cardrow = (props) => {
 return(
     <div class="container-xl">
       <div className="row">
-        <FourCard title="Papatya 40 adet" exp="Antoryum, arum ailesinin en büyük cinsi olan Araceae olan yaklaşık 1000 çiçekli bitki türünün bir cinsidir." />
+        <FourCard title="Title - 4"       exp="inside paragraph inside paragraph inside paragraph" />
         <FourCard title="Title - 1"       exp="inside paragraph inside paragraph inside paragraph" />
         <FourCard title="Title - 2"       exp="inside paragraph inside paragraph" />
         <FourCard title="Title - 3"       exp="inside paragraph inside paragraphinside paragraphinside paragraph" />
