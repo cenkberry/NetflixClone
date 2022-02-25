@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Hello} from './Comp';
+import {Header} from './Comp';
 const MyPage = document.getElementById('root');
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-  <Hello />
+  <Header />
   </React.StrictMode>, MyPage);
