@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Header} from './Comp';
+import {Cardrow} from './Comp';
 const MyPage = document.getElementById('root');
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-  <Header />
+    <Cardrow />
+
   </React.StrictMode>, MyPage);
