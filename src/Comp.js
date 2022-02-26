@@ -26,16 +26,20 @@ export const Page1 = () => {
 export const Page2 = () => {
   return (
     <>
+    
     <div className="container-xl vh-100 bg-info flex" id="page2">
-    <div className="h1 move">MOVE BOX</div>
+      <div className="col-6 text-center left"><h1>Do you want to see <br />  our amazing houses  ?</h1></div>
+      <div className="col-6 right"> <img className="img img-fluid"
+      src="https://weandthecolor.com/wp-content/uploads/2016/07/Luxurious-dream-house-inSouth-Africa-by-SAOTA-696x385.jpg" alt="" /></div>
     </div>
+
     </>
   )
 }
 export const Page3 = () => {
   return (
-     <div className="container-xl vh-100 bg-secondary page3">
 
+     <div className="container-xl vh-100 bg-secondary page3">
        <div className="h4">Lorem, ipsum dolor.</div>
        <div className="h4">Illo, quibusdam expedita.</div>
        <div className="h4">Ratione, voluptates provident.</div>

@@ -11,12 +11,18 @@ ReactDOM.render(
    <Page3 />
   </React.StrictMode>, MyPage);
 
-  
-const btn    = document.querySelector('.btn');
-const move   = document.querySelector('.move');
+const btn     = document.querySelector('.btn');
+const left    = document.querySelector('.left');
+const right   = document.querySelector('.right');
 
 btn.addEventListener("click", () =>{
-  
-  move.style.animation = "move 1s linear";
 
-})
+  left.style.animation  = "moveleft 1s linear";
+  right.style.animation = "moveright 1s linear";
+  
+    setTimeout(function(){
+    left.style = "none";
+    right.style = "none"; 
+    }, 2000);
+
+});
