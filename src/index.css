@@ -16,6 +16,7 @@ body{
   'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
+
 .flex{
   display: flex;
    align-items: center;
