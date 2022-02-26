@@ -8,4 +8,6 @@ const MyPage = document.getElementById('root');
 ReactDOM.render(
   <React.StrictMode>
 
+
+
   </React.StrictMode>, MyPage);
