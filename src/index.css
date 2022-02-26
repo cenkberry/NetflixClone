@@ -21,26 +21,3 @@ body{
    align-items: center;
    justify-content: center;
 }
-
-@keyframes moveleft {
-
-  0%{
-    transform: translate(-200px);
-  }
-
-  100%{
-    transform: translate(0px);
-  }
-}
-
-@keyframes moveright {
-
-  0%{
-    transform: translate(200px);
-  }
-
-  100%{
-    transform: translate(0px);
-  }
-
-}
