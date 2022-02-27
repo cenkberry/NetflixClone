@@ -95,7 +95,6 @@ export const Box4 = () => {
               <h3 className="text-light mt-2">Send kids on adventures with their favorite characters in a 
               space made just for them—free with your membership.</h3>
           </div>
-       
         </div>
       </div>
     </div>
