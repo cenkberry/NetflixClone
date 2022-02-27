@@ -9,10 +9,10 @@ export const Header = () => {
   return(
       <div className="container-fluid header">
           <div className="row">
-                <div className="col-9">
+                <div className="col-8">
                   <img className="img-fluid logo" src={logo} alt="logo" />
                 </div>
-                <div className="col-3 text-light rside">
+                <div className="col-4 text-light rside">
                    <button className='btn login text-bold text-light'>Sign In</button>
                 </div>
           </div>
@@ -31,7 +31,7 @@ export const Box1 = () => {
   return(
     <div className="container-fluid box">
       <div className="container">
-        <div className="row d-flex">
+        <div className="row">
           <div className="col-sm-6 parag">
               <h1 className="text-light">Enjoy on your TV.</h1>
               <h4 className="text-light mt-2">Watch on Smart TVs, Playstation, Xbox, 
@@ -58,7 +58,6 @@ export const Box2 = () => {
               <h1 className="text-light">Download your shows to watch offline.</h1>
               <h3 className="text-light mt-2">Save your favorites easily and always have something to watch.</h3>
           </div>
-       
         </div>
       </div>
     </div>
@@ -93,7 +92,7 @@ export const Box4 = () => {
           <div className="col-sm-6 parag">
               <h1 className="text-light">Create profiles for kids.</h1>
               <h3 className="text-light mt-2">Send kids on adventures with their favorite characters in a 
-              space made just for them—free with your membership.</h3>
+              space made just for them free with your membership.</h3>
           </div>
         </div>
       </div>

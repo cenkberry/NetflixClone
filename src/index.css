@@ -20,7 +20,6 @@ body{
   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) ), url('./img/topback.jpg');
   background-size: cover;
   background-position: center;
-
 }
 .logo{
   height: 3.5rem;
@@ -32,7 +31,6 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 3rem;
 }
 
 .flex{
@@ -54,12 +52,12 @@ body{
 }
 
 .spot{
-  font-size: 3.5vw;
   color:#ffffff;
-  margin-top: 9vw;
+  margin-top: 10vw;
   padding: 0 28vw 0 28vw;
   font-weight: 700;
 }
+
 .mail{
   width: 30rem;
   height: 4.5rem;
@@ -94,15 +92,16 @@ input[type=text] {
     margin-left: 1rem;
   }
   .login{
+    width: 15rem;
     font-size: 1rem;
     margin-top: 1.5rem;
     height: 2rem;
     padding: 0 0.5rem 0 0.5rem;
   }
   .spot{
-    font-size: 5.5vw;
+    font-size: 2rem;
     color:#ffffff;
-    margin-top: 15vw;
+    margin-top: 28vw;
     padding: 0;
     font-weight: 700;
     padding: 0 7vw 0 7vw;
@@ -127,13 +126,29 @@ input[type=text] {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
   }
   .parag{
     align-items: center;
+    text-align: center;
   }
   .mob-reverse{
     flex-direction: column-reverse;
     font-size: 0.75rem;
+    text-align: center;
+    padding: 0;
   }
 
+}
+
+@media screen and (min-width: 1600px) {
+  .spot{
+     
+    font-size: 4rem;
+    color:#ffffff;
+    margin-top: 12vw;
+    padding: 0;
+    font-weight: 700;
+    padding: 0 25vw 0 25vw;
+  }
 }
