@@ -4,7 +4,6 @@ import mobile from './img/mob.jpg';
 import box3 from './img/box3.png';
 import box4 from './img/box4.png';
 
-
 export const Header = () => {
   return(
       <div className="container-fluid header">
