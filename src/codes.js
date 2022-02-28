@@ -30,7 +30,7 @@ export const Box1 = () => {
   return(
     <div className="container-fluid box">
       <div className="container">
-        <div className="row">
+        <div className="row py-3">
           <div className="col-sm-6 parag px-4">
               <h1 className="text-light title">Enjoy on your TV.</h1>
               <h4 className="text-light mt-2 boxpar">Watch on Smart TVs, Playstation, Xbox, 
@@ -49,11 +49,11 @@ export const Box2 = () => {
   return(
     <div className="container-fluid box">
         <div className="container">
-        <div className="row mob-reverse">
-          <div className="col-sm-5 py-2">
+        <div className="row py-2 mob-reverse">
+          <div className="col-sm-6">
           <img className="img-fluid" src={mobile} alt="tv" />
           </div>
-          <div className="col-sm-7 parag">
+          <div className="col-sm-6 parag">
               <h1 className="text-light title">Download your shows to watch offline.</h1>
               <h3 className="text-light mt-2 boxpar">Save your favorites easily and always have 
               something to watch.</h3>
@@ -67,7 +67,7 @@ export const Box3 = () => {
   return(
     <div className="container-fluid box">
       <div className="container">
-        <div className="row py-2">
+        <div className="row py-3">
           <div className="col-sm-6 parag">
               <h1 className="text-light title">Watch everywhere.</h1>
               <h4 className="text-light mt-2 boxpar">Stream unlimited movies and TV shows on your phone,
@@ -86,7 +86,7 @@ export const Box4 = () => {
   return(
     <div className="container-fluid box">
         <div className="container">
-        <div className="row mob-reverse py-2">
+        <div className="row py-2 mob-reverse">
           <div className="col-sm-6">
           <img className="img-fluid" src={box4} alt="tv" />
           </div>
@@ -104,7 +104,7 @@ export const Box4 = () => {
 export const Footer = () => {
   return(
     <div className="container-fluid box">
-      <div className="container-sm my-5 px-2">
+      <div className="container-sm my-5 px-3">
        <h6 className='mb-4'>Questions? Call 0850-390-7444</h6>
       <div className="grid">
     

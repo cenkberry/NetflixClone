@@ -170,12 +170,6 @@ input[type=text] {
     text-align: center;
   }
  
-  .mob-reverse{
-    flex-direction: column-reverse;
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 0;
-  }
   .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -195,5 +189,17 @@ input[type=text] {
   }
   a{
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .mob-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0;
   }
 }
