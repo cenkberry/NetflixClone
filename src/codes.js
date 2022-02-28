@@ -16,7 +16,7 @@ export const Header = () => {
                 </div>
           </div>
           <div className='text-center'>
-            <h1 className='spot'>Unlimited movies, TV shows, and more.</h1>
+            <h1 className='spot'>CHANGE</h1>
             <h4 className='text-light mt-2'>Watch anywhere. Cancel anytime.</h4>
             <h5 className='text-light mt-3'>Ready to watch? Enter your email to create or restart your membership.</h5>
             <input type="text" className='mail mt-3' placeholder='Email Adress' />
