@@ -50,7 +50,7 @@ export const Box2 = () => {
     <div className="container-fluid box">
         <div className="container">
         <div className="row mob-reverse">
-          <div className="col-sm-5 py-5">
+          <div className="col-sm-5 py-2">
           <img className="img-fluid" src={mobile} alt="tv" />
           </div>
           <div className="col-sm-7 parag">
@@ -104,8 +104,8 @@ export const Box4 = () => {
 export const Footer = () => {
   return(
     <div className="container-fluid box">
-      <div className="container-sm my-5 px-5 py-2">
-       <h6 className='mb-5'>Questions? Call 0850-390-7444</h6>
+      <div className="container-sm my-5 px-2">
+       <h6 className='mb-4'>Questions? Call 0850-390-7444</h6>
       <div className="grid">
     
            <div><a href="#empty">FAQ</a></div>
