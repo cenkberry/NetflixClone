@@ -167,12 +167,10 @@ input[type=text] {
   font-weight: 400;
 }
 
-
-
 @media screen and (max-width: 768px) {
   
   .header{
-    height: 75vh;
+    height: 79vh;
   }
   .logo{
     height: 1.8rem;
@@ -238,7 +236,7 @@ input[type=text] {
   padding-right: 0.7rem;
 }
 .logbox{
-  margin-top: 10vw;
+  margin-top: 6vw;
 }
 
 }
