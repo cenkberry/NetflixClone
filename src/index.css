@@ -98,10 +98,11 @@ input[type=text] {
   padding: 12px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+  color: #ffffff;
 }
+
 .box{
   border-top:0.5rem solid rgb(65, 63, 63);
- 
 }
 
 .title{
@@ -113,6 +114,60 @@ input[type=text] {
    grid-template-columns: 1fr 1fr 1fr 1fr;
    row-gap: 1rem;
 }
+
+.logbox{
+  color:#ffffff;
+  margin-top: 3vw;
+  background-color: rgb(0, 0, 0 , 0.6);
+  font-weight: 700;
+  padding: 2vw 3vw 2vw 3vw;
+}
+
+.username{
+  background-color: #333333;
+}
+.password{
+  background-color: #333333;
+}
+.signer{
+  color: #ffffff;
+  background-color: #e50914;
+  height: 3.5rem;
+  width: 100%;
+  font-weight: 700;
+}
+
+.grid-rem{
+  display: grid;
+  grid-template-columns: auto 9fr 4fr;
+  color: #737373;
+  font-size: 1rem;
+}
+.new{
+  display: inline-block;
+  color: #737373;
+  font-size: 1.1rem;
+  padding-right: 0.5rem;
+  font-weight: 400;
+}
+.signnow{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.signnow:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.exp{
+  color: #737373;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
 
 @media screen and (max-width: 768px) {
   
@@ -175,6 +230,17 @@ input[type=text] {
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
  }
+ .grid-rem{
+  display: grid;
+  grid-template-columns: auto 8fr 4fr;
+  color: #737373;
+  font-size: 0.7rem;
+  padding-right: 0.7rem;
+}
+.logbox{
+  margin-top: 15vw;
+}
+
 
 }
 

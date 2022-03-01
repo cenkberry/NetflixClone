@@ -25,6 +25,36 @@ export const Header = () => {
       </div>
   )
 }
+export const LoginPage = () => {
+  return(
+      <div className="container-fluid header">
+          <div className="row">
+                <div className="col-8">
+                  <img className="img-fluid logo" src={logo} alt="logo" />
+                </div>
+                <div className="col-4 text-light rside">
+                   <button className='btn login text-bold text-light'>Sign In</button>
+                </div>
+          </div>
+          <div className="row d-flex justify-content-center mt-3">
+              <div className='col-10 col-sm-8 col-md-7 col-lg-6 col-xl-4 logbox rounded'>
+                  <h3 className=''>Sign In</h3>
+                  <input type="text" className='username input-group rounded mt-4'/>
+                  <input type="text" className='password input-group rounded my-4'/>
+                  <button className='signer rounded mt-3'>Sign In</button>
+                  <div className="grid-rem mt-2 mx-1">
+                    <div><input type="checkbox" className='mx-1' /></div>
+                    <p>Remember me</p>
+                    <div className='d-flex justify-content-end'>Need help?</div>
+                  </div>
+                  <div className='new'>New to Netflix?</div>
+                  <div className='signnow'>Sign up now.</div>
+                  <p className="mt-3 exp">This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</p>
+              </div>
+          </div>
+      </div>
+  )
+}
 
 export const Box1 = () => {
   return(
@@ -82,6 +112,8 @@ export const Box3 = () => {
   )
 };
 
+
+
 export const Box4 = () => {
   return(
     <div className="container-fluid box">
@@ -99,6 +131,7 @@ export const Box4 = () => {
       </div>
     </div>
   )
+ 
 };
 
 export const Footer = () => {
