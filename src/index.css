@@ -32,6 +32,9 @@ a:hover{
 h6{
   color: #757575;
 }
+
+
+/* Header css */
 .header{
   height: 100vh;
   background-color: aqua;
@@ -45,17 +48,6 @@ h6{
   margin-left: 2rem;
 }
 
-.parag{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.flex{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 .rside{
   display: flex;
   align-items: center;
@@ -100,6 +92,16 @@ input[type=text] {
   box-sizing: border-box;
   color: #ffffff;
 }
+/* header css */
+
+
+
+/* boxes css */
+.parag{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .box{
   border-top:0.5rem solid rgb(65, 63, 63);
@@ -108,64 +110,17 @@ input[type=text] {
 .title{
   font-size: 3.2rem;
 }
+/* boxes css */
 
+
+/* footer css */
 .grid{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    row-gap: 1rem;
 }
+/* footer css */
 
-.logbox{
-  color:#ffffff;
-  margin-top: 3vw;
-  background-color: rgb(0, 0, 0 , 0.6);
-  font-weight: 700;
-  padding: 2vw 3vw 2vw 3vw;
-}
-
-.username{
-  background-color: #333333;
-}
-.password{
-  background-color: #333333;
-}
-.signer{
-  color: #ffffff;
-  background-color: #e50914;
-  height: 3.5rem;
-  width: 100%;
-  font-weight: 700;
-}
-
-.grid-rem{
-  display: grid;
-  grid-template-columns: auto 9fr 4fr;
-  color: #737373;
-  font-size: 1rem;
-}
-.new{
-  display: inline-block;
-  color: #737373;
-  font-size: 1.1rem;
-  padding-right: 0.5rem;
-  font-weight: 400;
-}
-.signnow{
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 300;
-  cursor: pointer;
-}
-.signnow:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.exp{
-  color: #737373;
-  font-size: 1rem;
-  font-weight: 400;
-}
 
 @media screen and (max-width: 768px) {
   
@@ -177,13 +132,7 @@ input[type=text] {
     margin-top: 1.5rem;
     margin-left: 0.5rem;
   }
-  .login{
-    width: 4rem;
-    font-size: 0.85rem;
-    margin-top: 1.5rem;
-    height: 1.8rem;
-    padding: 0;
-  }
+
   .spot{
     font-size: 1.7rem;
     color:#ffffff;
@@ -222,22 +171,6 @@ input[type=text] {
     font-size:1.2rem;
     text-align: center;
   }
- 
-  .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
- }
- .grid-rem{
-  display: grid;
-  grid-template-columns: auto 8fr 4fr;
-  color: #737373;
-  font-size: 0.7rem;
-  padding-right: 0.7rem;
-}
-.logbox{
-  margin-top: 6vw;
-}
 
 }
 
