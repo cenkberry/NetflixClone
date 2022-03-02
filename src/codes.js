@@ -11,7 +11,7 @@ export const Header = () => {
                 <div className="col-8">
                   <img className="img-fluid logo" src={logo} alt="logo" />
                 </div>
-                <div className="col-4 text-light rside">
+                <div className="col-4 text-light rside mt-3">
                    <button className='btn login text-bold text-light'>Sign In</button>
                 </div>
           </div>
@@ -101,7 +101,7 @@ export const Box4 = () => {
 export const Footer = () => {
   return(
     <div className="container-fluid box">
-      <div className="container-sm my-5 px-3">
+      <div className="container-sm my-5 px-2">
        <h6 className='mb-4'>Questions? Call 0850-390-7444</h6>
       <div className="grid">
     
