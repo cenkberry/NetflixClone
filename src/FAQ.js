@@ -1,5 +1,4 @@
 import React,{ Component } from 'react';
-import { Header } from './codes';
 
 class FAQ extends Component {
    constructor(props) {
