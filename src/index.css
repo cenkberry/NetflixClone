@@ -11,6 +11,7 @@
 
 body {
   background: #000000;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 16px;
 }
 
@@ -123,6 +124,45 @@ input[type=text] {
   padding: 2vw 3vw 2vw 3vw;
 }
 
+.fbar{
+  
+  margin-bottom: 1rem;
+}
+
+.fques{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.4rem 0.6rem 1.4rem;
+  font-weight: 400;
+  width: 100%;
+  border: 0;
+  background-color: #303030;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.625rem;
+  border-bottom:0.1rem solid #000000;
+}
+
+.openbut{
+  font-size: 2.0rem;
+  margin-bottom: 0.4rem;
+  color: #ffffff;
+}
+
+.fans{
+  padding: 0.9rem 1.8rem 0.9rem 1.8rem;
+  font-weight: 400;
+  background-color: #303030;
+  color: #ffffff;
+  font-size: 1.625rem;
+}
+
+.faqbox{
+  border-top: 0.5rem solid rgb(65, 63, 63);
+  padding-bottom: 3.5rem;
+}
+
 @media screen and (max-width: 768px) {
 
   .header {
@@ -206,6 +246,7 @@ input[type=text] {
   .logbox {
     margin-top: 6vw;
   }
+  
 }
 
 @media screen and (min-width: 1600px) {
@@ -237,4 +278,34 @@ input[type=text] {
   .spot {
     margin-top: 25vw;
   }
+  .faqbox{
+    font-size: 1.12rem;
+    margin:0;
+    padding: 0 0 2rem 0;
+  }
+  .faqbox  .row{
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0rem;
+  }
+  .fques{
+    padding: 0.3rem 1.0rem 0.3rem 1.0rem;
+    font-size: 1.1rem;
+    border-bottom:0.1rem solid #000000;
+    font-weight: 500;
+  }
+  .fans{
+    padding: 0.9rem 1.0rem 0.9rem 1.0rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .openbut{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+  .faqbox  .title{
+    font-weight:600;
+    padding:1rem;
+    margin: 1rem 0.2rem !important;
+  }
+
 }
